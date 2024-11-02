@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(Picture4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #c5c5c5;
+}
+
+header {
+    background: transparent;
+    padding: 1%;
+    width: 100%;
+    color: #838282;
+    font-size: 2em;
+}
+
+nav {
+    background: transparent;
+    width: 20%;
+    height: auto;
+    float: left;
+    
+}
+
+.profil {
+    border-radius: 45%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 3%;
+    filter: brightness(50%);
+
+}
+
+.artikel {
+    float: left;
+    padding-left: 2%;
+    width: 100%;
+    height: 100%;
+    font-size: 1.3em;
+}
+
+.container {
+    width: 80%;
+    float: left;
+}
+
+@media (max-width: 600px) {
+    nav {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .artikel {
+        padding-left: 0;
+    }
+}
+
+.artikel h3 {
+    background: transparent;
+    width: 100%;
+    color: #a8a8a8;
+    padding-left: 3%;
+}
+
+.Kontak {
+    margin-bottom: 1%;
+    text-align: center;
+    font-size: 1.3em;
+
+}
+
+.ig {
+    border-radius: 35%;
+    width: 15%;
+    filter: brightness(50%);
+    margin: 2%;
+    transition: transform 0.3s;
+}
+
+.ig:hover {
+transform: scale(1.2);
+}
+
+.wa {
+    border-radius: 35%;
+    width: 15%;
+    filter: brightness(50%);
+    margin: 2%;
+    transition: transform 0.3s;
+}
+
+.wa:hover {
+transform: scale(1.2);
+}
+ .iconn {
+    text-align: center;
+ }
+/* .icon {
+    width: 50%;
+    margin: 0 auto;
+} */
+
+footer {
+    display: flex;
+    width: 100%;
+    background-color: #38383848;
+    margin-top: 50%;
+    padding: 1%;
+    justify-content: center;
+    color: rgb(196, 201, 206);
+    font-size: 0.5em;
+    font-style: italic;
+}
